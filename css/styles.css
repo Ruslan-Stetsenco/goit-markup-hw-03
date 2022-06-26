@@ -9,6 +9,14 @@
   --contact-text: #ffffff99;
 }
 
+body {
+  font-family: 'Roboto', 'Raleway';
+  letter-spacing: 0.03em;
+  background-color: var(--background-card-team);
+  font-size: 14px;
+  color: var(--main-text-color);
+}
+
 /* normalize */
 
 html {
@@ -41,16 +49,8 @@ img {
   padding: 0;
 }
 
-body {
-  font-family: 'Roboto', 'Raleway';
-  letter-spacing: 0.03em;
-  background-color: var(--background-card-team);
-  font-size: 14px;
-  color: var(--main-text-color);
-}
-
 .section {
-  padding: 94px 15px;
+  padding: 94px 0;
 }
 
 .container {
@@ -80,9 +80,6 @@ body {
 .line-header {
   border-bottom: 1px solid #ececec;
   padding: 0;
-}
-.section-header {
-  padding: 0 15px;
 }
 
 .header-block {
@@ -332,10 +329,6 @@ body {
   margin-top: 20px;
 }
 
-.adress-li {
-  margin-top: 20px;
-}
-
 .link-address {
   font-style: normal;
   line-height: 1.71;
@@ -356,7 +349,7 @@ body {
   justify-content: center;
 }
 
-.list-filter {
+.list-filter:not(:last-child) {
   margin-right: 8px;
 }
 
@@ -413,7 +406,7 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-text-color);
-  margin: 0;
+  margin-bottom: 4p;
 }
 
 .text-card {
